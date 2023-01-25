@@ -2,6 +2,7 @@ schemaVersion: 2.1.0
 metadata:
   name: developer-images
 attributes:
+  controller.devfile.io/storage-type: persistent
   controller.devfile.io/scc: container-build
 components:
   - name: devtools
